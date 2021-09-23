@@ -12,7 +12,16 @@ function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Joyce Oluwatosin Olusegun</small>
+          <small>
+            Coded by Joyce Oluwatosin Olusegun and{" "}
+            <a
+              href="https://github.com/Jolusegun/dictionary-app-react"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced on GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
