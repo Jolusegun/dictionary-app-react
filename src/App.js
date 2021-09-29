@@ -19,7 +19,7 @@ function App() {
           <strong className="Diction">Fox(i) Dictionary App</strong>
         </header>
         <main>
-          <Dictionary defaultKeyword="cloud" />
+          <Dictionary defaultKeyword="water" />
         </main>
         <footer className="App-footer">
           <small>
