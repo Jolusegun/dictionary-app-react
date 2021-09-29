@@ -8,12 +8,14 @@ function App() {
       <div className="container">
         <header className="App-header">
           <strong>Dictionary</strong>
-          <img
-            src={logo}
-            className="App-logo-img-fluid"
-            alt="Fox logo"
-            rel="noreferrer"
-          />
+          <div>
+            <img
+              src={logo}
+              className="App-logo-img-fluid"
+              alt="Fox logo"
+              rel="noreferrer"
+            />
+          </div>
         </header>
         <main>
           <Dictionary defaultKeyword="greeting" />
