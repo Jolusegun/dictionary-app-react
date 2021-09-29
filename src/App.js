@@ -9,18 +9,18 @@ function App() {
           <strong>Dictionary</strong>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="greeting"/>
         </main>
         <footer className="App-footer">
           <small>
-            Coded by Joyce Oluwatosin Olusegun and{" "}
             <a
               href="https://github.com/Jolusegun/dictionary-app-react"
               target="_blank"
               rel="noreferrer"
             >
-              open-sourced on GitHub
-            </a>
+              Open-sourced on GitHub
+            </a>{" "}
+            by Joyce Oluwatosin Olusegun
           </small>
         </footer>
       </div>
