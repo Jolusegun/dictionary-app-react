@@ -7,18 +7,19 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <strong>Dictionary App</strong>
           <div>
             <img
               src={logo}
               className="App-logo-img-fluid"
               alt="Fox logo"
               rel="noreferrer"
+              width="150"
             />
           </div>
+          <strong className="Diction">Fox(i) Dictionary App</strong>
         </header>
         <main>
-          <Dictionary defaultKeyword="bright" />
+          <Dictionary defaultKeyword="cloud" />
         </main>
         <footer className="App-footer">
           <small>
@@ -26,10 +27,28 @@ function App() {
               href="https://github.com/Jolusegun/dictionary-app-react"
               target="_blank"
               rel="noreferrer"
+              className="footer-link"
             >
               Open-sourced on GitHub
             </a>{" "}
-            by Joyce Oluwatosin Olusegun
+            by{" "}
+            <a
+              href="https://github.com/Jolusegun/dictionary-app-react"
+              target="_blank"
+              rel="noreferrer"
+              className="footer-link"
+            >
+              Joyce Oluwatosin Olusegun
+            </a>
+            {""} and hosted on{" "}
+            <a
+              href="https://boring-varahamihira-627cc1.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="footer-link"
+            >
+              Netlify
+            </a>
           </small>
         </footer>
       </div>

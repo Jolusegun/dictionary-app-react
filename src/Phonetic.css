@@ -11,6 +11,7 @@
   border-radius: 20px;
   margin-left: -3px;
   transition: all 100ms ease-in-out;
+  color: #259494;
 }
 
 .Phonetic a:hover {
