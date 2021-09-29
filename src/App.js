@@ -1,3 +1,4 @@
+import logo from "./fox.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,9 +8,15 @@ function App() {
       <div className="container">
         <header className="App-header">
           <strong>Dictionary</strong>
+          <img
+            src={logo}
+            className="App-logo-img-fluid"
+            alt="Fox logo"
+            rel="noreferrer"
+          />
         </header>
         <main>
-          <Dictionary defaultKeyword="greeting"/>
+          <Dictionary defaultKeyword="greeting" />
         </main>
         <footer className="App-footer">
           <small>
