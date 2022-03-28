@@ -16,7 +16,7 @@ function App() {
               width="150"
             />
           </div>
-          <strong className="Diction">Fox(i) Dictionary App</strong>
+          <strong className="Diction">Neat Dictionary App</strong>
         </header>
         <main>
           <Dictionary defaultKeyword="fit" />
