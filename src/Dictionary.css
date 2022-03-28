@@ -6,7 +6,7 @@
 }
 
 .Dictionary section {
-  background: white;
+  background:radial-gradient(666px at 0.4% 48%, rgb(202, 204, 227) 0%, rgb(89, 89, 99) 97.5%);
   padding: 30px;
   border-radius: 17px;
   margin: 20px;
