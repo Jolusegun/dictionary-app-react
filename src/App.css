@@ -5,7 +5,7 @@
 }
 
 body {
-  background: radial-gradient(590px at 8.2% 13.8%, rgb(18, 35, 60) 0%, rgb(187, 187, 187) 90%);
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
     serif;
 }
